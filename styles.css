@@ -1,9 +1,13 @@
-
-
 * {
    font-family: 'Muli', sans-serif;
+    border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+
 
 }
+
 
 /*Navbar Styling*/
 #navbarResponsive li a {
@@ -16,10 +20,11 @@ nav a:hover {
 
 .custom-toggler.navbar-toggler {
     border-color: #c86441;
+    margin-right: 10%;
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("Images/toggler.png");
+  background-image: url("images/toggler.png");
 }
 
 .navbar {
@@ -42,7 +47,7 @@ nav a:hover {
 .logo {
     transition: 750ms ease; 
     width: 8vh;
-    margin-left: 10vh;
+    margin-left: 5vw;
    
 }
 
@@ -85,6 +90,7 @@ h1, h3 {
 
 .home {
     height: 98vh;
+    width: 100%;
     background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(Images/Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +102,7 @@ h1, h3 {
 
 /*About Styling*/
 .transition {
-    width: 7vh;    
+    width: 8vh;    
     bottom: -1vh;
     position: absolute;
     margin-left: auto;
@@ -143,7 +149,6 @@ h2 {
     background-color: #EEEEEE;
     height: auto;
     padding-bottom: 10%;
-    display: grid;
     align-content: center;
 }
 
@@ -155,7 +160,7 @@ h2 {
 /*Efectos galería*/
 
 .img-responsive {
-    width: 60vh;
+    max-width: 60vh;
     border: solid white 1px;
 }
 
@@ -298,6 +303,7 @@ p1:hover {
 }
 
 form {
+    width: 50%;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -305,7 +311,6 @@ form {
 }
 
 .form-control {
-    width: 50vh;
     background: transparent;
     border: none;
     outline: none;
@@ -330,7 +335,26 @@ form .submit:hover {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 375px) {
+   
+    .img-responsive {
+        width: 360px;
+    }
+    
+    form {
+        width: 360px;
+    }
+    
+    .contact1 {
+        padding: 20%;
+    }
+    
+}
+
+
+
 /*Media Queries*/
+/*
 @media (max-width: 980px) {
     .about {
         height: 200vh;
@@ -343,6 +367,11 @@ form .submit:hover {
         height: 210vh;
     }
 }
+*/
+
+
+
+
 
 
 
