@@ -23,9 +23,9 @@ nav a:hover {
     margin-right: 10%;
 }
 
-.custom-toggler .navbar-toggler-icon {
+/* .custom-toggler .navbar-toggler-icon {
   background-image: url("Images/toggler.png");
-}
+} */
 
 .navbar {
   margin-bottom: 0;
