@@ -19,13 +19,9 @@ nav a:hover {
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: #c86441;
     margin-right: 10%;
+    background-color: white;
 }
-
-/* .custom-toggler .navbar-toggler-icon {
-  background-image: url("Images/toggler.png");
-} */
 
 .navbar {
   margin-bottom: 0;
