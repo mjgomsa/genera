@@ -235,7 +235,7 @@ h2 {
 .hovereffect a, .hovereffect p {
   color: #FFF;
   padding: 1em 0;
-    padding-top: 20%;
+    padding-top: 15%;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
