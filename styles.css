@@ -24,7 +24,7 @@ nav a:hover {
 }
 
  .nav-item{
-    text-align: right;
+    text-align: center;
 }
 
 @media only screen and (max-width: 575px) {
