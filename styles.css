@@ -1,3 +1,4 @@
+
 * {
    font-family: 'Muli', sans-serif;
     border: 0;
@@ -22,6 +23,8 @@ nav a:hover {
     margin-right: 10%;
     background-color: white;
 }
+
+
 
 .navbar {
   margin-bottom: 0;
@@ -76,12 +79,22 @@ h1, h3 {
    
 }
 
+.slogan {
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    text-shadow: 0px 1px 1px black;
+    font-family: "Helvetica Neue";
+    letter-spacing: 10px;
+}
+
 .g-way {
     color: white;
     font-size: 75px;
-    font-weight: 500;
+    font-weight: lighter;
     text-shadow: 0px 1px 1px black;
     font-family: "Helvetica Neue";
+    letter-spacing: 10px;
 }
 
 .home {
@@ -364,6 +377,7 @@ form .submit:hover {
     }
 }
 */
+
 
 
 
