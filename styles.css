@@ -24,7 +24,7 @@ nav a:hover {
 }
 
  .nav-item{
-    text-align: center;
+    text-align: right;
 }
 
 @media only screen and (max-width: 575px) {
@@ -228,25 +228,14 @@ h2 {
   -webkit-filter: brightness(0.6);
 }
 
-.hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,-100%,0);
-  transform: translate3d(0,-100%,0);
+#titulo_Local {
+    text-transform: uppercase;
 }
 
 .hovereffect a, .hovereffect p {
   color: #FFF;
   padding: 1em 0;
+    padding-top: 20%;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
