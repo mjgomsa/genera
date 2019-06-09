@@ -1,14 +1,10 @@
-
 * {
    font-family: 'Muli', sans-serif;
     border: 0;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
-
-
 }
-
 
 /*Navbar Styling*/
 #navbarResponsive li a {
@@ -259,6 +255,7 @@ h2 {
 /*Contacto*/
 .contact {
     height: 70vh;
+    background-color: #191919;
 }
 
 /*Contacto-izq*/
@@ -272,9 +269,8 @@ h2 {
 
 /*Contacto-der*/
 .contact2 {
-    background-color: #191919;
-    height: 70vh;
     text-align: center;
+    background-color: #191919;
 }
 
  .contact h2 {
@@ -305,44 +301,6 @@ p1:hover {
     font-size: 3vh;
 }
 
-.contact-form {
-    display: block;
-    text-align: center;
-    margin-top: 3vh;
-}
-
-form {
-    width: 50%;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
-.form-control {
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid grey;
-    color: white;
-}
-
-input {
-    height: 5vh;
-}
-
-form .submit {
-    background: #c86441;
-    border-color: transparent;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-form .submit:hover {
-    background-color: #a54929;
-    cursor: pointer;
-}
 
 @media only screen and (max-width: 375px) {
    
@@ -350,39 +308,12 @@ form .submit:hover {
         width: 360px;
     }
     
-    form {
-        width: 360px;
-    }
-    
-    .contact1 {
+
+    .contact1, .contact2 {
         padding: 20%;
     }
     
 }
-
-
-
-/*Media Queries*/
-/*
-@media (max-width: 980px) {
-    .about {
-        height: 200vh;
-    }
-
-}
-
-@media (max-width: 380px) {
-    .about {
-        height: 210vh;
-    }
-}
-*/
-
-
-
-
-
-
 
 
 
