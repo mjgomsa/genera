@@ -4,7 +4,10 @@
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+
+
 }
+
 
 /*Navbar Styling*/
 #navbarResponsive li a {
@@ -322,6 +325,3 @@ p1:hover {
     }
     
 }
-
-
-
